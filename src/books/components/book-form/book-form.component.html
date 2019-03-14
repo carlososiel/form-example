@@ -1,0 +1,8 @@
+<form [formGroup]="bookForm">
+  <input type="hidden" formControlName="id"/>
+  <input type="text" formControlName="title"/>
+  <input type="text" formControlName="author"/>
+  <input type="text" formControlName="year"/>
+  <input type="text" formControlName="isbn"/>
+  <button class="btn" (click)="save()">Save</button>
+</form>
